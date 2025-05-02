@@ -24,7 +24,11 @@ function App() {
             onChange={(e) => setSelectedCountry(e.target.value)}
           >
             <option value="">Seleccione un país</option>
-            {/* Aquí se deben agregar los options */}
+            <option value="mexico">México</option>
+            <option value="argentina">Argentina</option>
+            <option value="colombia">Colombia</option>
+            <option value="chile">Chile</option>
+            <option value="peru">Perú</option>
           </select>
         </div>
 
